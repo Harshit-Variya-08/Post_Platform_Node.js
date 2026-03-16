@@ -19,7 +19,7 @@ A post management platform built with Node.js and Express.
 ## Installation
 
 1. Clone the repository
-git clone https://github.com/yourusername/post-platform.git
+git clone https://github.com/Harshit-Variya-08/Post_Platform_Node.js.git
 
 2. Install dependencies
 npm install
