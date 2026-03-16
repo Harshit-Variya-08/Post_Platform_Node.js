@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Login</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100">
+
+    <div class="flex justify-center items-center min-h-screen">
+        <form action="/login" method="POST" class="bg-white p-6 rounded shadow w-80">
+
+            <h2 class="text-xl font-bold mb-4 text-center">Login</h2>
+
+            <input type="email" name="email" placeholder="Email" class="w-full border p-2 mb-3 rounded">
+
+            <input type="password" name="password" placeholder="Password" class="w-full border p-2 mb-4 rounded">
+
+            <button type="submit" class="w-full bg-blue-500 text-white p-2 rounded">
+                Login
+            </button>
+            Account does not exist ? <a href="/" class="underline">Register</a>
+
+        </form>
+    </div>
+
+</body>
+
+</html>
